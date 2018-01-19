@@ -18,7 +18,7 @@ Installation :
 Utilisation : 
 `phpcs --report=json --extensions=php /path/to/code`
 
-## PHPCodeBeautifierandFixer
+## PHPCodeBeautifier and Fixer
 PHP Code Beautifier and Fixer fixes violations of a defined coding standard.
 
 Installation : 
@@ -26,3 +26,4 @@ Installé en même temps que PHPCodeSniffer
 
 Utilisation : 
 `phpcbf --report=json --extensions=php /path/to/code`
+
