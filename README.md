@@ -27,3 +27,21 @@ Installé en même temps que PHPCodeSniffer
 Utilisation : 
 `phpcbf --report=json --extensions=php /path/to/code`
 
+## PHP Parallel Lint
+This tool checks syntax of PHP files faster than serial check with a fancier output.
+
+Installation : 
+`composer require --dev jakub-onderka/php-parallel-lint`
+
+Utilisation : 
+`vendor/bin/parallel-lint --exclude vendor --json /path/to/code`
+
+## Psalm
+Psalm is a static analysis tool for finding errors in PHP applications.
+
+Installation : 
+`composer require --dev vimeo/psalm`
+
+Utilisation : 
+`./vendor/bin/psalm --init /path/to/code`
+`./vendor/bin/psalm`
