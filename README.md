@@ -45,3 +45,13 @@ Installation :
 Utilisation : 
 `./vendor/bin/psalm --init /path/to/code`
 `./vendor/bin/psalm`
+
+## PHP Copy/Paste Detector (PHPCPD)
+Copy/Paste Detector (CPD) for PHP code.
+
+Installation :
+Already installed with PHPQA
+
+Utilisation : 
+`vendor/bin/PHPCPD /path/to/code`
+
