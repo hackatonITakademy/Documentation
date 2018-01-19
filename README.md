@@ -32,3 +32,6 @@ Create report :
 	"_token":"SD0oDUpAFPSqqNDtQT1CsygkViD62oI3RImJEDDP"
 }
 ```
+
+Get reports for an user :
+`GET : api/report/user/{user}
