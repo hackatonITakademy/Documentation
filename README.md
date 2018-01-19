@@ -39,7 +39,7 @@ Create report :
 ```
 
 Get reports for an user :
-`GET : api/report/user/{user}
+`GET : api/report/user/{user}`
 
 Update report :
 ```javascript
