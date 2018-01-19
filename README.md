@@ -10,9 +10,9 @@ Create donation :
 // POST : api/donation
 {
 	"user_id":1,
-	"currency_id":1,
-	"amount":100,
-	"_token":"TaMxNlW7WpQKSz3qQAGCBP7Q7ONkCIcgCikO2vJU"
+	"currency_id": 1,
+	"amount": 100,
+	"_token": "token"
 }
 ```
 
@@ -29,9 +29,17 @@ Create report :
 {
 	"user_id": 1, // Non obligatoire.
 	"git_repository": "test2", // Unique
-	"_token":"SD0oDUpAFPSqqNDtQT1CsygkViD62oI3RImJEDDP"
+	"_token": "token"
 }
 ```
 
 Get reports for an user :
 `GET : api/report/user/{user}
+
+Update report :
+```javascript
+{
+	"user_id": 1, // Non obligatoire
+	"_token": "token"
+}
+```
