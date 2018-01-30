@@ -50,3 +50,17 @@ Update report :
 	"_token": "token"
 }
 ```
+
+## Users
+
+Create user :
+```javascript
+// POST : api/user
+{
+	"name": "test",
+	"email": "test@test.com",
+	"password": "test",
+	"password_confirmation": "test",
+    	"_token": "token"
+}
+```
