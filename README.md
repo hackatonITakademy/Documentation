@@ -31,6 +31,7 @@ Get All report :
 
 Create report :
 ```javascript
+// POST : api/report
 {
 	"user_id": 1, // Non obligatoire.
 	"git_repository": "test2", // Unique
@@ -43,6 +44,7 @@ Get reports for an user :
 
 Update report :
 ```javascript
+// POST : api/report
 {
 	"user_id": 1, // Non obligatoire
 	"_token": "token"
