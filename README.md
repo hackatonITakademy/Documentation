@@ -40,7 +40,7 @@ Get donations for an user :
 Get All report : 
 `GET : api/report`
 
-Create report :
+Create or Update report :
 ```javascript
 // Return 201 | 422
 // POST : api/report
@@ -63,15 +63,6 @@ Create report :
 
 Get reports for an user :
 `GET : api/report/user/{user}`
-
-Update report :
-```javascript
-// POST : api/report
-{
-	"user_id": 1, // Non obligatoire
-	"_token": "token"
-}
-```
 
 ## Users
 
