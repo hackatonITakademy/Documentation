@@ -42,11 +42,22 @@ Get All report :
 
 Create report :
 ```javascript
+// Return 201 | 422
 // POST : api/report
 {
 	"user_id": 1, // Non obligatoire.
 	"git_repository": "test2", // Unique
 	"_token": "token"
+}
+
+// Return 422 errors example
+{
+    "git_repository": [
+        "The git repository may not be greater than 191 characters."
+    ],
+    "user_id": [
+        "The user id must be an integer."
+    ]
 }
 ```
 
