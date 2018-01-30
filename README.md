@@ -89,3 +89,7 @@ Create user :
     ]
 }
 ```
+## Currencies
+
+Get currencies 
+`GET : api/currency`
