@@ -21,7 +21,7 @@ Create donation :
 	"_token": "token"
 }
 
-// Return errors example
+// Return 422 errors example
 {
     "amount": [
         "The amount must be a number."
@@ -76,7 +76,7 @@ Create user :
     	"_token": "token"
 }
 
-// Retour des erreurs :
+// Return 422 errors example :
 {
     "name": [
         "The name may not be greater than 191 characters."
