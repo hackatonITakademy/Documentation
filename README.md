@@ -55,6 +55,7 @@ Update report :
 
 Create user :
 ```javascript
+// Return 201 | 422
 // POST : api/user
 {
 	"name": "test",
@@ -62,5 +63,18 @@ Create user :
 	"password": "test",
 	"password_confirmation": "test",
     	"_token": "token"
+}
+
+// Retour des erreurs :
+{
+    "name": [
+        "The name may not be greater than 191 characters."
+    ],
+    "email": [
+        "The email must be a valid email address."
+    ],
+    "password": [
+        "The password confirmation does not match."
+    ]
 }
 ```
