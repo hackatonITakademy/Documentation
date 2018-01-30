@@ -12,12 +12,23 @@ Get All donations :
 
 Create donation : 
 ```javascript
+// Return 201 | 422 | 403
 // POST : api/donation
 {
 	"user_id":1,
 	"currency_id": 1,
 	"amount": 100,
 	"_token": "token"
+}
+
+// Return errors example
+{
+    "amount": [
+        "The amount must be a number."
+    ],
+    "currency_id": [
+        "The currency id field is required."
+    ]
 }
 ```
 
