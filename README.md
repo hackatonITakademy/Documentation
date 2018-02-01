@@ -35,9 +35,7 @@ Create or Update report :
 // Return 201 | 422
 // POST : api/report
 {
-	"user_id": 1, // Non obligatoire.
 	"git_repository": "test2", // Unique
-	"_token": "token"
 }
 
 // Return 422 errors example
@@ -52,7 +50,7 @@ Create or Update report :
 ```
 
 Get reports for an user :
-`GET : api/report/user/{user}`
+`GET : api/report/user`
 
 ## Users
 
