@@ -2,9 +2,6 @@
 
 ## Donations
 
-Get All donations : 
-`GET : api/donation`
-
 Create donation : 
 ```javascript
 // Return 201 | 422 | 403
