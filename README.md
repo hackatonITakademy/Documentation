@@ -2,7 +2,7 @@
 
 ## Donations
 
-Create donation : 
+Create donation with access_token : 
 ```javascript
 // Return 201 | 422 | 403
 // POST : api/donation
@@ -22,7 +22,7 @@ Create donation :
 }
 ```
 
-Get donations for an user : 
+Get donations for an user with access_token : 
 `GET : api/donation/user`
 
 ## Reports
@@ -49,7 +49,7 @@ Create or Update report :
 }
 ```
 
-Get reports for an user :
+Get reports for an user with access_token :
 `GET : api/report/user`
 
 ## Users
