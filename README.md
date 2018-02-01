@@ -10,7 +10,6 @@ Create donation :
 // Return 201 | 422 | 403
 // POST : api/donation
 {
-	"user_id":1,
 	"currency_id": 1,
 	"amount": 100,
 	"_token": "token"
@@ -28,7 +27,7 @@ Create donation :
 ```
 
 Get donations for an user : 
-`GET : api/donation/user/{user}`
+`GET : api/donation/user`
 
 ## Reports
 
