@@ -11,8 +11,7 @@ Create donation :
 // POST : api/donation
 {
 	"currency_id": 1,
-	"amount": 100,
-	"_token": "token"
+	"amount": 100
 }
 
 // Return 422 errors example
