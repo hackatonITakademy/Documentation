@@ -1,10 +1,5 @@
 # Documentation API
 
-## Token
-
-Get token :
-`GET : oauth/token`
-
 ## Donations
 
 Get All donations : 
