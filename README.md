@@ -3,7 +3,7 @@
 ## Token
 
 Get token :
-`GET : api/token`
+`GET : oauth/token`
 
 ## Donations
 
@@ -68,14 +68,13 @@ Get reports for an user :
 
 Create user :
 ```javascript
-// Return 201 | 422
-// POST : api/user
+// Return 201 with access_token | 422 with access_token
+// POST : api/register
 {
 	"name": "test",
 	"email": "test@test.com",
 	"password": "test",
 	"password_confirmation": "test",
-    	"_token": "token"
 }
 
 // Return 422 errors example :
@@ -89,6 +88,15 @@ Create user :
     "password": [
         "The password confirmation does not match."
     ]
+}
+```
+
+Login user : 
+```javascript
+// Return 200 with access_token
+{
+	"email": "email",
+	"password": "mdp"
 }
 ```
 ## Currencies
