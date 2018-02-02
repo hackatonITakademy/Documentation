@@ -22,7 +22,7 @@ Create donation with access_token :
 }
 ```
 
-Get donations for an user with access_token : 
+Get donations for a user with access_token : 
 `GET : api/donation/user`
 
 ## Reports
@@ -49,7 +49,7 @@ Create or Update report :
 }
 ```
 
-Get reports for an user with access_token :
+Get reports for a user with access_token :
 `GET : api/report/user`
 
 ## Users
