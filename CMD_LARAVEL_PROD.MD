@@ -1,7 +1,7 @@
 # Commandes à executer
 
 ```bash
-docker exec -it id bash
+docker exec -it id_apache bash
 git clone https://github.com/hackatonITakademy/Hackaton-API.git /var/www/api.hackaton
 cd /var/www/api.hackaton
 composer install
