@@ -5,4 +5,5 @@ git clone blabla.git
 cd blabla
 composer install
 php artisan migrate
+php artisan k:g
 ```
