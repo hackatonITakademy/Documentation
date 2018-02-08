@@ -36,6 +36,7 @@ Create or Update report :
 // POST : api/report
 {
 	"git_repository": "test2", // Unique
+	"email": "email"
 }
 
 // Return 422 errors example
