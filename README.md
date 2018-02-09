@@ -44,9 +44,14 @@ Create or Update report :
     "git_repository": [
         "The git repository may not be greater than 191 characters."
     ],
-    "user_id": [
-        "The user id must be an integer."
-    ]
+}
+```
+
+get a html report :
+```js
+// return the html if the queue is done and the git exist in database
+{
+    "git_repository": "test2", // Unique
 }
 ```
 
