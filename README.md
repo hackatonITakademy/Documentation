@@ -49,6 +49,7 @@ Create or Update report :
 
 get a html report :
 ```js
+// POST : api/getReport
 // return the html if the queue is done and the git exist in database
 {
     "git_repository": "test2", // Unique
